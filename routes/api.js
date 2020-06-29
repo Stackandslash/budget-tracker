@@ -10,8 +10,8 @@ router.post("/api/transaction", ({body}, res) => {
       res.status(404).json(err);
     });
 });
-
-router.post("/api/transaction/bulk", ({body}, res) => {
+//bulk made me think of just getting an arbitrary large amount, so this gets changed to getall.
+router.post("/api/transaction/getall", ({body}, res) => {
   Transaction.insertMany(body)
     .then(dbTransaction => {
       res.json(dbTransaction);
