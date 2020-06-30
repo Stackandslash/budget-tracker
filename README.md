@@ -3,7 +3,7 @@
 #### Description
 An app for recording your expenses and income, and saving them to MongoDB or IndexedDB, depending on online status, allowing users to travel with their information.
 
-#### [Deployed Here](#https://pacific-peak-72093.herokuapp.com/)
+#### [Deployed Here](https://pacific-peak-72093.herokuapp.com/)
 
 ## Table of Contents
 #### [Details](#details)
